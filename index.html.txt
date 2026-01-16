@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amit Devkatte | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <h2 class="logo">Amit</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Hi, I'm <span>Amit Devkatte</span></h1>
+    <p>Data Analyst | Power BI | SQL | Analytics</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a data professional with 17+ years of experience working with
+      analytics, BI tools, SQL, and business intelligence solutions.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div>Power BI</div>
+      <div>SQL</div>
+      <div>DAX</div>
+      <div>Python</div>
+      <div>ETL</div>
+      <div>Azure</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Sales Analytics Dashboard</h3>
+      <p>Built an end-to-end Power BI dashboard using SQL Server data.</p>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <p>17+ years in analytics, BI, and data engineering roles.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: amit@example.com</p>
+    <p>LinkedIn: linkedin.com/in/amitdevkatte</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
